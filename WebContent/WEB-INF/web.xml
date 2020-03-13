@@ -7,7 +7,7 @@
   	<servlet-class>com.control.ControlServlet</servlet-class>
   	<init-param>
   		<param-name>propertyConfig</param-name>
-  		<param-value>E:/java_ee/workspace/bitFarm/WebContent/WEB-INF/command.properties</param-value>
+  		<param-value>D:/workspace/bitFarm/WebContent/WEB-INF/command.properties</param-value>
   	</init-param>
   </servlet>
   <servlet-mapping>
