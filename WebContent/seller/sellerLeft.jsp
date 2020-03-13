@@ -7,7 +7,7 @@ a.sellerA:hover {color: #5f0080; text-decoration: none; font-weight: bolder;}
 a.sellerA:active {color: black; text-decoration: none;}
 
 .sellerLeftDiv{
-	width: 30%; 
+	width: 20%; 
 	float: left; 
 	text-align: center;
 	/* border: 1px dotted red; */
@@ -34,7 +34,10 @@ a.sellerA:active {color: black; text-decoration: none;}
 			<td><a class="sellerA" href="/bitFarm/seller/sellerQnABoard.do">문의게시판</a></td>
 		</tr>
 		<tr>
-			<td><a class="sellerA" href="/bitFarm/seller/sellerStat.do">판매통계보기</a></td>
+			<td><a class="sellerA" href="/bitFarm/seller/sellerOrder.do">주문현황</a></td>
+		</tr>
+		<tr>
+			<td><a class="sellerA" href="/bitFarm/seller/sellerSell.do">매출현황</a></td>
 		</tr>
 	</table>
 </div>
