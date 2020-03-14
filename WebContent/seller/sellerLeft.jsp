@@ -6,15 +6,18 @@ a.sellerA:visited {color: black; text-decoration: none;}
 a.sellerA:hover {color: #5f0080; text-decoration: none; font-weight: bolder;}
 a.sellerA:active {color: black; text-decoration: none;}
 
-.sellerLeftDiv{
+.sellerLeftDiv{	
+	margin
 	width: 20%; 
 	float: left; 
 	text-align: center;
-	/* border: 1px dotted red; */
+	border: 1px dotted red;
 }
 </style>
 
-<div class="sellerLeftDiv">
+
+<div style = "padding: 5px 1px 2px 200px;">
+<div class="sellerLeftDiv" >
 	<a class="sellerA" href="/bitFarm/seller/sellerAll.do"><h2>판매자 홈</h2></a>
 	<br>
 	<img src="../image/user.png" width="90px">
@@ -40,4 +43,5 @@ a.sellerA:active {color: black; text-decoration: none;}
 			<td><a class="sellerA" href="/bitFarm/seller/sellerSell.do">매출현황</a></td>
 		</tr>
 	</table>
+</div>
 </div>

@@ -2,26 +2,44 @@
 
 <style type="text/css">
 .sellerStoreHr{
-	width: 85%; height: 2px; background-color: #5f0080;
+	text-align: left;
+	border-collapse: collapse;
+	margin
+	width: 100%;
+	border-top: 2px solid #5f0080;
+	border-bottom: 2px solid gray;
+	width: 100%;
+	frame: void;
+	rules: rows;
+	
 }
 </style>
-<jsp:include page="sellerLeft.jsp"/>
-	
-<div style="width: 60%; float: left; text-align: center;">
-	<!-- 상품등록페이지 Title -->
-	<h2>오프라인 매장</h2>
-	<div>판매자의 오프라인 매장을 만나보세요</div>
-	
-	<p style="clear: both; height: 5px;"></p>
 
-	<!-- 상품등록페이지  (1)이미지 등록 -->
-	<h3 align="left">지도로 위치 확인</h3>	
-	<img src="../image/map.JPG" width="800" >
-	<p>매장 주소 : 서울특별시 서초구 강남대로 459- 비트빌딩 103호</p>	
+
+<jsp:include page="sellerLeft.jsp"/>
+<div style="width: 70%; text-align: center; padding: 20px 0px 0px 390px;">
+
+	<!-- 상품등록페이지 Title -->
+	<h2 align="center">오프라인 매장</h2>
+	<div style="text-align: center;">판매자 오프라인매장 여기 왜 들어가있지.</div>
+	<br><br><br><br><br>
+	
+	
+	<h3 align="left">판매자 매장 지도</h3>
+	<table class="sellerStoreHr" cellpadding="15" frame="hsides" rules="rows">
+	
+	<tr><th>매장 주소 : 서울특별시 서초구 강남대로 459- 비트빌딩 103호</th></tr>
+	<tr><td><img src="../image/map.JPG" width="1290"></td></tr>
+	</table>		
+	
+	<table class="sellerStoreHr" cellpadding="15" frame="hsides" rules="rows">
+	
+	</table>
+</div>
 </div>
 
 <!-- 카카오 맵 불러오기 아직 연구중... 도메인설정후 화면에 띄울 수 있다고 함 -->
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c1980da3dce399f0eaca606982a636a7"></script>
+<!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c1980da3dce399f0eaca606982a636a7"></script>
 <script>
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = { 
@@ -71,3 +89,4 @@ function getInfo() {
     // ex) console.log(message);
 }
 </script>
+ -->

@@ -1,8 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <style type="text/css">
 .sellerQnATable{
-	text-align: center;
+text-align: center;
 	border-collapse: collapse;
+	margin
 	width: 100%;
 	border-top: 2px solid #5f0080;
 	border-bottom: 2px solid gray;
@@ -12,11 +13,15 @@
 }
 </style>
 <jsp:include page="sellerLeft.jsp" />
-<div style="width:60%; float: left;">
+<div style="width: 70%; text-align: center; padding: 20px 0px 0px 390px;">
+
+
 	<h2 align="center">문의게시판</h2>
 	<div style="text-align: center;">문의글에 답변해주세요.</div>
-	<br><br>
-	<table class="sellerQnATable" cellpadding="30" frame="hsides" rules="rows">
+	<br><br><br><br><br>
+	
+	<h3 align="left">문의게시판</h3>
+	<table class="sellerQnATable" cellpadding="15" frame="hsides" rules="rows">
 		<tr>
 			<th>글번호</th>
 			<th>제목</th>

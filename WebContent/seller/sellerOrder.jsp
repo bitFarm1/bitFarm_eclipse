@@ -6,21 +6,26 @@
 .sellerStatTable{
 	text-align: center;
 	border-collapse: collapse;
+	margin
 	width: 100%;
 	border-top: 2px solid #5f0080;
 	border-bottom: 2px solid gray;
 	width: 100%;
 	frame: void;
 	rules: rows;
+	
 }
 </style>
 
+
 <jsp:include page="sellerLeft.jsp"/>
-<div style="width: 70%; float: left; text-align: center;">
+
+<div style="width: 70%; text-align: center; padding: 20px 0px 0px 390px;">
+	
 	<!-- 상품등록페이지 Title -->
 	<h2 align="center">판매상품 주문현황</h2>
 	<div style="text-align: center;">판매상품 주문현황입니다.</div>
-	<br><br><br>
+	<br><br><br><br><br>
 	
 	<h3 align="left">판매상품 주문현황</h3>
 	<table class="sellerStatTable" cellpadding="15" frame="hsides" rules="rows">
@@ -104,4 +109,5 @@
 		</tr>	
 	</table>
 </div>	
+</div>
 <p style="clear: both; height: 7px;"></p>
