@@ -9,7 +9,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-${param.email }
-${param.name }
+타입 : ${param.type }
+이메일 : ${param.email }
+이름 : ${param.name }
 </body>
 </html>

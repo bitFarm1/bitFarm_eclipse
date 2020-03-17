@@ -11,11 +11,14 @@ public class NaverAction implements CommandProcess {
 	public String requestPro(HttpServletRequest request, HttpServletResponse response) throws Throwable {
 		String email = request.getParameter("email");
 		String name = request.getParameter("name");
+		String type = request.getParameter("type");
 		
 		request.setAttribute("email", email);
 		request.setAttribute("name", name);
+		request.setAttribute("type", type);
 
 		return "/member/naverInfo.jsp";
 	}
 
 }
+ 

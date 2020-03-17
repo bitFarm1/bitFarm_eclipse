@@ -11,7 +11,7 @@
 
 <body>
 
-	callback 처리중입니다. 이 페이지에서는 callback을 처리하고 바로 main으로 redirect하기때문에 이 메시지가 보이면 안됩니다.
+	callback Page
 
 	<!-- (1) LoginWithNaverId Javscript SDK -->
 	<script type="text/javascript" src="https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.0.js" charset="utf-8"></script>
@@ -45,7 +45,7 @@
 					var age = naverLogin.user.getAge();
 					
 					alert("email="+email+" name="+name+" profileImage="+profileImage+" uniqId="+uniqId+" age="+age); 
-					window.location.replace("http://" + window.location.hostname + ( (location.port==""||location.port==undefined)?"":":" + location.port) + "/bitFarm/member/naver.do?email="+email+"&name="+name);
+					window.location.replace("http://" + window.location.hostname + ( (location.port==""||location.port==undefined)?"":":" + location.port) + "/bitFarm/member/naver.do?email="+email+"&name="+name+"&type=naver");
 		
 				} else {
 					console.log("callback 처리에 실패하였습니다.");
