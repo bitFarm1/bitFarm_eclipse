@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 encoding//WebContent/seller/sellerOrder.jsp=UTF-8
+=======
+encoding//WebContent/member/facebookLoginCallback.jsp=UTF-8
+>>>>>>> kjh
