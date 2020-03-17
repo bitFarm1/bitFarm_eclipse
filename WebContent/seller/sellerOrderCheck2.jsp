@@ -15,12 +15,11 @@
 </style>
 
 <jsp:include page="sellerLeft.jsp"/>
-<div style="width: 60%; float: left; text-align: center;">
+<div style="width: 68%; text-align: center; padding: 50px 0px 50px 420px;">
 	<!-- 상품등록페이지 Title -->
 	<h2 align="center">판매상품 주문상세</h2>
 	<div style="text-align: center;">최딸기 님의 주문상세 내용입니다.</div>
-	
-	<br><br><br>
+	<br><br><br><br>
 	
 	<h3 align="left">주문 상품 상세 </h3>
 	<table class="sellerStatTable" cellpadding="15" frame="hsides" rules="rows">

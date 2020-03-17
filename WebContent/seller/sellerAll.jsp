@@ -13,12 +13,12 @@
 }
 </style>
 <jsp:include page="sellerLeft.jsp" />
-<div style="width: 70%; text-align: center; padding: 20px 0px 0px 390px;">
+<div style="width: 68%; text-align: center; padding: 50px 0px 50px 420px;">
 
 
 	<h2 align="center">판매상품 모아보기</h2>
 	<div style="text-align: center;">판매자의 판매중인 상품입니다</div>
-	<br><br><br><br><br>
+	<br><br><br><br>
 	
 	<h3 align="left">판매상품 모아보기</h3>
 	<table class="sellerAllTable" cellpadding="10" frame="hsides" rules="rows">

@@ -15,14 +15,13 @@ a.searchA:active {color: black; text-decoration: none;}
 }
 
 .layout{
-	width: 310px;
+	width: 340px;
 	height: 54px;
 	line-height: 20px;  
     border-radius: 3px; 
     background: #fff;
     border: 1px solid #ccc;
     outline: none;
-    padding: 0 15px;
 }
 
 
@@ -35,24 +34,24 @@ a.searchA:active {color: black; text-decoration: none;}
 	<div> 
 		<strong>이름</strong>
 		<div style="height: 5px"></div>		
-		<input class="layout" type="text" name="name" placeholder="고객님의 이름을 입력해주세요" style="font-size:15px;">
+		<input class="layout" type="text" name="name" placeholder=" 고객님의 이름을 입력해주세요" style="font-size:15px;">
 	</div>
 		<div style="height:15px;"></div> 
 	<div>
 		<strong>아이디</strong>
 		<div style="height: 5px"></div>		
-		<input class="layout" type="text" name="id" placeholder="가입 시 등록하신 이메일 주소를 입력해주세요" style="font-size:15px;">
+		<input class="layout" type="text" name="id" placeholder=" 가입 시 등록하신 이메일 주소를 입력해주세요" style="font-size:15px;">
 		<div style="height:15px;"></div>
 	</div> 
 	<div>
 		<strong>이메일</strong>
 		<div style="height: 5px"></div>		
-		<input class="layout" type="text" name="email" placeholder="가입 시 등록하신 이메일 주소를 입력해주세요" style="font-size:15px;">
+		<input class="layout" type="text" name="email" placeholder=" 가입 시 등록하신 이메일 주소를 입력해주세요" style="font-size:15px;">
 	</div> 
  
 		<div style="height:25px;"></div>
 	<div>
-		<input class="layout" type="button" value="확인" style="color: white; background-color: #5f0080; border: #5f0080; border-radius: 3px; width: 340px; cursor: pointer;">
+		<input class="layout" type="button" value="확인" style="color: white; background-color: #5f0080; border: #5f0080; border-radius: 3px;">
 	</div>  	
 </div>  
 </form>

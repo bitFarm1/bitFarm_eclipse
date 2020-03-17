@@ -11,18 +11,18 @@ a.sellerA:active {color: black; text-decoration: none;}
 	width: 20%; 
 	float: left; 
 	text-align: center;
-	border: 1px dotted red;
+	/* border: 1px dotted red; */
 }
 </style>
 
 
-<div style = "padding: 5px 1px 2px 200px;">
+<div style = "padding: 5px 0px 0px 200px;">
 <div class="sellerLeftDiv" >
 	<a class="sellerA" href="/bitFarm/seller/sellerAll.do"><h2>판매자 홈</h2></a>
 	<br>
 	<img src="../image/user.png" width="90px">
 	<h3>ㅇㅇ님</h3>
-	<br>
+	<br><br><br><br>
 	<table width="100%" height="300px"> 
 		<tr>
 			<td><a class="sellerA" href="/bitFarm/seller/sellerAddForm.do">판매상품 등록하기</a></td>

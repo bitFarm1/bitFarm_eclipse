@@ -13,12 +13,12 @@ text-align: center;
 }
 </style>
 <jsp:include page="sellerLeft.jsp" />
-<div style="width: 70%; text-align: center; padding: 20px 0px 0px 390px;">
+<div style="width: 68%; text-align: center; padding: 50px 0px 50px 420px;">
 
-
+	<!-- 문의게시판 Title -->
 	<h2 align="center">문의게시판</h2>
 	<div style="text-align: center;">문의글에 답변해주세요.</div>
-	<br><br><br><br><br>
+	<br><br><br><br>
 	
 	<h3 align="left">문의게시판</h3>
 	<table class="sellerQnATable" cellpadding="15" frame="hsides" rules="rows">

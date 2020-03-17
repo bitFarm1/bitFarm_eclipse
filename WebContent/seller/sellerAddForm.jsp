@@ -13,12 +13,12 @@
 }
 </style>
 <jsp:include page="sellerLeft.jsp" />
-<div style="width: 70%; text-align: center; padding: 20px 0px 0px 390px;">
+<div style="width: 68%; text-align: center; padding: 50px 0px 50px 420px;">
 
 
 	<h2 align="center">판매상품 등록하기</h2>
 	<div style="text-align: center;">판매하실 상품을 등록해 주세요.</div>
-	<br><br><br><br><br>
+	<br><br><br><br>
 	
 	<h3 align="left">판매상품 메인 이미지 등록하기</h3>
 	<table class="sellerAddTable" cellpadding="10" frame="hsides" rules="rows">

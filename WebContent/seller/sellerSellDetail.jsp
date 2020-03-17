@@ -1,26 +1,41 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+ 
+ <style type="text/css">
+.sellerStoreHr{
+	text-align: left;
+	border-collapse: collapse;
+	margin
+	width: 100%;
+	border-top: 2px solid #5f0080;
+	border-bottom: 2px solid gray;
+	width: 100%;
+	frame: void;
+	rules: rows;	
+}
+</style> 
+ 
+ 
  <jsp:include page="sellerLeft.jsp"/>
+
  
- 
- 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>chart.js</title>
-<head>
+
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
-</head>
-<body>
-	<div style="width: 60%; float: left; text-align: center;">
+
+	<div style="width: 68%; text-align: center; padding: 50px 0px 50px 420px;">
 	<!-- 상품등록페이지 Title -->
 	<h2 align="center">판매상품 매출현황</h2>
 	<div style="text-align: center;">판매상품 매출현황입니다.</div>
-	<br><br><br>
+	<br><br><br><br>
 	
+	<h3 align="left">상품 명 : 포도 </h3>
+	<table class="sellerStoreHr" cellpadding="15" frame="hsides" rules="rows">
+	
+	<tr><th>판매기간 : 2019.08.10 - 2020.02.11</th></tr>
+	<table class="sellerStoreHr" cellpadding="15" frame="hsides" rules="rows">
+	</table>
 
-   <div class="chart-container" style="position: relative; height:200px; width:60vw">
+   <div class="chart-container"  style="position: relative; height:200px; width:60vw">
       <canvas id="myChart"></canvas>
    </div>
    <button type="button" id="reData">데이터 변경</button>
@@ -173,4 +188,5 @@
    }
    
   </script>
+  </table>
 </body>

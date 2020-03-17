@@ -16,11 +16,12 @@
 </style>
 
 <jsp:include page="sellerLeft.jsp"/>
-<div style="width: 70%; text-align: center; padding: 20px 0px 0px 390px;">
+<div style="width: 68%; text-align: center; padding: 50px 0px 50px 420px;">
+
 	<!-- 상품등록페이지 Title -->
 	<h2 align="center">판매상품 매출현황</h2>
 	<div style="text-align: center;">판매상품 매출현황입니다.</div>
-	<br><br><br><br><br>
+	<br><br><br><br>
 	
 	<h3 align="left">판매상품 매출현황</h3>
 	<table class="sellerStatTable" cellpadding="15" frame="hsides" rules="rows">
@@ -65,11 +66,3 @@
 	</table>
 </div>	
 <p style="clear: both; height: 7px;"></p>
-<!-- 등록하기 버튼 -->	
-<div style="width: 85%; margin: 0 auto; text-align: center;">
-	<input type="button" value="▽ 상위 3개 품목 매출현황 ▽" style="width: 400pt; height: 50pt; font-size: 25px; background-color: #5f0080; color: #ffffff;">
-</div>
-
-<div>
-	<img src="../image/statusUI.JPG">
-</div>
