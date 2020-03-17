@@ -1,6 +1,31 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-// JavaScript Code<!-- 택배조회Coll -->
+<div class="api_title_area">
+<h2 class="api_title">택배배송 조회</h2>
+<div>
+<div class="delivery_bx">
+ <div class="delivery_con"> 
+ <div class="information_bx _recent_area" style="display:none;">
+  <div class="title_bx"> 
+  <strong class="title">최근 조회한 택배 송장번호</strong> 
+  </div> 
+  <div class="info_list"> 
+  <dl class="_container"></dl> </div> 
+  <button nocr="" onclick="goOtherTCR(this, 'a=nco_x5b*1.recentclo&amp;r=1&amp;i=88147988_0000001E86A3');return false;" type="button" 
+  class="btn_close _close_recent_area"> 
+  <i class="ico_close">최근 조회한 택배 송장번호 닫기</i> 
+  </button> </div> <div class="delivery_selectBox_area"> 
+  <div class="select_wrap"> <span class="delivery_select_group">
+   <select class="delivery_select_bx _select" onchange="goOtherTCR(this, 'a=nco_x5b*1.select&amp;r=1&amp;i=88147988_0000001E86A3');">
+    <option>택배사 선택</option> <option data-code="04" data-name="CJ대한통운">CJ대한통운</option> <option data-code="01" data-name="우체국택배">우체국택배</option> 
+    <option data-code="05" data-name="한진택배">한진택배</option> <option data-code="08" data-name="롯데택배">롯데택배</option> 
+    <option data-code="06" data-name="로젠택배">로젠택배</option> <option data-code="54" data-name="홈픽택배">홈픽택배</option>
+     <option data-code="24" data-name="CVSnet 편의점택배">CVSnet 편의점택배</option> <option data-code="46" data-name="CU 편의점택배">CU 편의점택배</option> <option data-code="23" data-name="경동택배">경동택배</option> <option data-code="22" data-name="대신택배">대신택배</option> <option data-code="11" data-name="일양로지스">일양로지스</option> <option data-code="32" data-name="합동택배">합동택배</option> <option data-code="18" data-name="건영택배">건영택배</option> <option data-code="17" data-name="천일택배">천일택배</option> <option data-code="20" data-name="한덱스">한덱스</option> <option data-code="16" data-name="한의사랑택배">한의사랑택배</option> <option data-code="12" data-name="EMS">EMS</option> <option data-code="13" data-name="DHL">DHL</option> <option data-code="25" data-name="TNT Express">TNT Express</option> <option data-code="14" data-name="UPS">UPS</option> <option data-code="21" data-name="Fedex">Fedex</option> <option data-code="26" data-name="USPS">USPS</option> <option data-code="34" data-name="i-Parcel">i-Parcel</option> <option data-code="33" data-name="DHL Global Mail">DHL Global Mail</option> <option data-code="37" data-name="판토스">판토스</option> <option data-code="29" data-name="에어보이익스프레스">에어보이익스프레스</option> <option data-code="28" data-name="GSMNtoN">GSMNtoN</option> <option data-code="38" data-name="ECMS Express">ECMS Express</option> <option data-code="30" data-name="KGL네트웍스">KGL네트웍스</option> <option data-code="40" data-name="굿투럭">굿투럭</option> <option data-code="45" data-name="호남택배">호남택배</option> <option data-code="41" data-name="GSI Express">GSI Express</option> <option data-code="44" data-name="SLX택배">SLX택배</option> <option data-code="47" data-name="우리한방택배">우리한방택배</option> <option data-code="52" data-name="세방">세방</option> <option data-code="56" data-name="KGB택배">KGB택배</option> <option data-code="57" data-name="Cway Express">Cway Express</option> <option data-code="58" data-name="하이택배">하이택배</option> <option data-code="60" data-name="YJS글로벌(영국)">YJS글로벌(영국)</option> <option data-code="61" data-name="워펙스코리아">워펙스코리아</option> <option data-code="51" data-name="성원글로벌카고">성원글로벌카고</option> <option data-code="62" data-name="홈이노베이션로지스">홈이노베이션로지스</option> <option data-code="63" data-name="은하쉬핑">은하쉬핑</option> <option data-code="66" data-name="Giant Network Group">Giant Network Group</option> <option data-code="64" data-name="FLF퍼레버택배">FLF퍼레버택배</option> <option data-code="53" data-name="농협택배">농협택배</option> <option data-code="65" data-name="YJS글로벌(월드)">YJS글로벌(월드)</option> <option data-code="67" data-name="디디로지스">디디로지스</option> <option data-code="69" data-name="대림통운">대림통운</option> <option data-code="70" data-name="LOTOS CORPORATION">LOTOS CORPORATION</option> <option data-code="43" data-name="애니트랙">애니트랙</option> <option data-code="72" data-name="성훈물류">성훈물류</option> <option data-code="71" data-name="IK물류">IK물류</option> <option data-code="80" data-name="엘서비스">엘서비스</option> <option data-code="79" data-name="티피엠코리아㈜ 용달이 특송">티피엠코리아㈜ 용달이 특송</option> <option data-code="83" data-name="제이로지스트">제이로지스트</option> <option data-code="81" data-name="제니엘시스템">제니엘시스템</option> </select> <span class="delivery_select_item" aria-hidden="true"> <span class="delivery_select_txt _delivery_select_txt">택배사 선택</span> <i class="delivery_ico_select"></i> </span> </span> </div> </div> <div class="type_search"> <div class="input_area"> <span class="txt_area"> <input type="text" placeholder="운송장 번호 - 없이 입력" class="input_txt _input" value="" onblur="goOtherTCR(this, 'a=nco_x5b*1.input&amp;r=1&amp;i=88147988_0000001E86A3');"> </span> <button type="button" class="btn_search _submit">검색</button> </div> </div> </div> <div class="_output"></div> <div class="error_bx _btminfo" style="display:none"> <div class="api_error _notFounding" style="display:none"> <i class="spnew api_ico_error"></i> <strong class="tit_message">운송장을 확인할 수 없습니다.</strong> <p class="dsc_message">운송장이 등록되지 않았거나 상품 준비중입니다.</p> </div> <div class="api_error _error" style="display:none"> <i class="spnew api_ico_error"></i> <strong class="tit_message">요청하신 정보를 불러올 수 없습니다.</strong> <p class="dsc_message">잠시후 다시 시도해 주세요.</p> <a nocr="" onclick="return goOtherCR(this, 'a=nco_x5b*1.refresh&amp;r=1&amp;i=88147988_0000001E86A3&amp;u=' + urlencode(this.href));" href="#" role="button" class="btn_retry"> <i class="spnew api_ico_retry2"></i>초기화 </a> </div> <div class="api_error _badCode" style="display:none"> <i class="spnew api_ico_error"></i> <strong class="tit_message">올바르지 않은 송장번호입니다.</strong> <p class="dsc_message">송장번호를 확인해 주세요.</p> </div> </div> <div class="loading_bx _loading" style="display:none"> <div class="api_loading"> <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="100%" height="8" alt="로딩중" class="bg_bloading2"> </div> </div> <div class="notice_bx _info"> <p>스마트택배 제공 정보로, 배송상황과 다를 수 있습니다.</p> </div> </div>
+
+<!-- https://m.search.naver.com/search.naver?sm=mtp_hty.top&where=m&query=%EB%B0%B0%EC%86%A1%EC%A1%B0%ED%9A%8C -->
+
+
+<%-- // JavaScript Code<!-- 택배조회Coll -->
 <style type="text/css">
 
 
@@ -228,4 +253,4 @@ SF.M.addStayLogColl({code: "CQX", id: "deliveryColl"});
 </script>
 </table>
 </div>
-<!-- end 택배조회Coll -->
+<!-- end 택배조회Coll --> --%>
