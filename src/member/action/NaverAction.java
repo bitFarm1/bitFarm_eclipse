@@ -20,5 +20,5 @@ public class NaverAction implements CommandProcess {
 		return "/member/naverInfo.jsp";
 	}
 
-}
+} 
  
