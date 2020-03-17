@@ -14,7 +14,6 @@ a.searchA:active {color: black; text-decoration: none;}
 	height: 400px;
 	top: 50%; 
 	left: 50%;  
-	
 }
 
 .layout{  
