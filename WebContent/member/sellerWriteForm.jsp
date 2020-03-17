@@ -26,6 +26,7 @@
 	border-radius: 5px;
 	font-family: 'Noto Sans';
 	font-weight: bold;
+	cursor: pointer;
 	} 
 	
 	.layoutT{
@@ -67,7 +68,7 @@
     font-size: 16px;
     color: #fff;
     line-height: 44px;
-  
+    cursor: pointer;
 	}
 	
 	a.sign {color:purple; text-decoration: none; }
@@ -151,13 +152,6 @@
 	<div>
 		&emsp;<input type="checkbox" name="selectAll"> 개인정보처리방침 (필수)&emsp;
 		<a class="sign" href="#">약관보기 ></a>
-	</div>
-	<div>
-		&emsp;<input type="checkbox" name="selectAll"> 개인정보처리방침 (선택)&emsp;
-		<a class="sign" href="#">약관보기 ></a>
-	</div>
-	<div>
-		&emsp;<input type="checkbox" name="selectAll"> 이벤트 혜택/정보 수신 (선택)
 	</div>
 	<div>
 		&emsp;<input type="checkbox" name="selectAll"> 본인은 만 14세 이상입니다. (필수) 

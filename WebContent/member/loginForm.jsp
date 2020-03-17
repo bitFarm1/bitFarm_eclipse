@@ -11,19 +11,22 @@ a.searchA:active {color: black; text-decoration: none;}
 .box{
 	margin: 0 auto;
 	width: 340px;
-	height: 400px;
+	height: 450px;
 	top: 50%; 
 	left: 50%;  
+	
 }
 
 .layout{  
 	width: 340px;
 	height: 54px;
-	line-height: 20px;  
+	line-height: 20px;   
     border-radius: 3px; 
     background: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #5f0080;
     outline: none; 
+    color: #5f0080; 
+    padding: 0 15px;
 }
 
 </style> 
@@ -34,28 +37,21 @@ a.searchA:active {color: black; text-decoration: none;}
 
 <h2 align="center">로그인</h2>
 	<div>
-		<input class="layout" type="text" name="id" placeholder=" 아이디를 입력해주세요" style="font-size:15px;">
+		<input class="layout" type="text" name="id" placeholder=" 아이디를 입력해주세요" style="font-size:15px; width:308px;">
 	</div>
 		<div style="height:5px;"></div>
 	<div>
-		<input class="layout" type="password" name="pwd" placeholder=" 비밀번호를 입력해주세요" style="font-size:15px;">
+		<input class="layout" type="password" name="pwd" placeholder=" 비밀번호를 입력해주세요" style="font-size:15px; width:308px;">
 	</div>
 	<div style="width:340px; height:54px;" align="right">
-	<a class="searchA" href="#">아이디 찾기</a>
-	<a class="searchA" href="#">비밀번호 찾기</a>&nbsp;
+	<a class="searchA" href="/bitFarm/member/findID.do">아이디 찾기</a>
+	<a class="searchA" href="/bitFarm/member/findPWD.do">비밀번호 찾기</a>&nbsp; 
 	</div>
 	<div>
-		<input class="layout" type="button" value="로그인" style="color: white; background-color: #5f0080; border: #5f0080; border-radius: 5px;">
+		<input class="layout" type="button" value="로그인" style="color: white; background-color: #5f0080; border: #5f0080; border-radius: 5px; cursor: pointer;">
 	</div>  
 		<div style="height:5px;"></div>
 	<div>
-<<<<<<< HEAD
-		<input class="layout" type="button" value="회원가입" style="border-radius: 5px;"> 
-	</div>	 	
-	
-</div>  
-</form>
-=======
 		<input class="layout" type="button" value="회원가입" style="border-radius: 5px; cursor: pointer;"> 
 		
 	</div>	 	 
@@ -193,4 +189,3 @@ a.searchA:active {color: black; text-decoration: none;}
       });
 </script>
 
->>>>>>> kjh
